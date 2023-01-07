@@ -1,0 +1,182 @@
+*{
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'Almond Cookies';
+  src: url('./fonts/Almond\ Cookies.ttf');
+}
+@font-face {
+  font-family: 'KenyarCoffe';
+  src: url('./fonts/KenyarCoffe.ttf');
+}
+
+body{
+  margin: 0;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+}
+
+a{
+  text-decoration: none;
+  color: rgb(73, 136, 219);
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+/* Header */
+header{
+  display: flex;
+  justify-content: center;
+  background-color: rgb(107, 131, 184);
+  height: 50px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.sun-image{
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  left: 0;
+  background-image: url('./images/sun-transparent.png');
+  background-size: cover;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.header-container{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 40vw;
+  font-size: 1.5vw;
+  margin-right: 30vw;
+}
+
+.header-container h2{
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  color: rgba(0, 0, 0, 0.63);
+}
+
+.underline{
+  position: absolute;
+  width: 30vw;
+  height: 2px;
+  background-color: rgba(0, 14, 44, 0.432);
+}
+
+/* Main content */
+
+.main-container{
+  width: 80vw;
+  margin-top: 30px;
+  margin-left: 20px;
+  margin-bottom: 100px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 0.9rem;
+}
+
+
+/* First images */
+.pentag-images{
+  display: flex;
+  
+}
+
+.pent-img{
+  width: 400px;
+  height: 500px;
+  background-image: url('./images/pentag.jpg');
+  background-size:cover;
+}
+
+.pentEgg-img{
+  width: 400px;
+  height: 400px;
+  margin-left: 10vw;
+  background-image: url('./images/eiform.jpg');
+  background-size:cover;
+}
+
+/* Ormus Content */
+.content-container{
+  width: 80vw;
+  margin-top: 50px;
+}
+
+.ormus-img{
+  width: 400px;
+  height: 400px;
+  background-image: url('./images/ormus.jpg');
+  background-size:cover;
+}
+
+.masaru-img{
+  width: 400px;
+  height: 400px;
+  background-image: url('./images/masaru.png');
+  background-size:cover;
+}
+
+/* Pyramids images */
+
+.pyramids-images{
+  display: flex;
+}
+
+.cooperPyr-img{
+  width: 400px;
+  height: 400px;
+  background-image: url('./images/cooperPyr.jpg');
+  background-size:cover;
+}
+
+.anglesPyr-img{
+  width: 400px;
+  height: 400px;
+  margin-left: 10vw;
+  background-image: url('./images/anglesPyr.jpg');
+  background-size:cover;
+}
+
+/* Second topic about pyramids */
+
+.pyramid-images1{
+  display: flex;
+}
+
+.pyrAquifer-img{
+  width: 400px;
+  height: 400px;
+  background-image: url('./images/pyrAquifer.jpg');
+  background-size:cover;
+}
+
+.pyrGenerator-img{
+  width: 400px;
+  height: 400px;
+  margin-left: 30px;
+  background-image: url('./images/pyrGenerator.jpg');
+  background-size:cover;
+}
+
+.uvgGrid-img{
+  width: 400px;
+  height: 400px;
+  margin-left: 30px;
+  background-image: url('./images/uvgGrid.jpg');
+  background-size:cover;
+}
+
+/* Seo content */
+
+.seo-content{
+  font-size: 1px;
+  color: rgba(255, 255, 255, 0);
+}
